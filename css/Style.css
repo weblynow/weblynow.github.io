@@ -98,35 +98,56 @@ footer h3 { display:block; margin-bottom:2rem; font-size:1.5rem; font-weight:600
     font-family: arial;
 }
 .buttona {
-    display:block;
-    padding: 10px 20px;
+    display: block;
+    padding: 75px 20px;
     text-align: center;
     text-decoration: none;
-    color: #ffffff;
-    background-color: deepskyblue;
+    color: white;
+    background-image: url("../img/Tonisweb.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: white;
     border-radius: 6px;
     outline: none;
+    border: 2px solid #1799e7;
 }
 .buttonb {
     display: block;
-    padding: 10px 20px;
+    padding: 75px 20px;
     text-align: center;
     text-decoration: none;
-    color: #ffffff;
-    background-color: #29ff73;
+    color: white;
+    background-image: url("../img/Instantweb.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
     border-radius: 6px;
     outline: none;
+    border: 2px solid #4CAF50;
 }
 .buttonc {
     display: block;
-    padding: 10px 20px;
+    padding: 75px 20px;
     text-align: center;
     text-decoration: none;
-    color: #ffffff;
-    background-color: rgb(128, 0, 255);
+    color: white;
+    background-image: url("../img/Passatweb.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
     border-radius: 6px;
     outline: none;
+    border: 2px solid #8e13c5;
 }
+.btna { color: white; padding: 75px 20px; text-align: center; font-size: 16px; margin: 4px 2px; transition: 0.3s; }
+.btna:hover { background-color: #1799e7; color: white; }
+
+.btnb { color: white; padding: 75px 20px; text-align: center; font-size: 16px; margin: 4px 2px; transition: 0.3s; } 
+.btnb:hover { background-color: #4CAF50; color: white; }
+
+.btnc { color: white; padding: 75px 20px; text-align: center; font-size: 16px; margin: 4px 2px; transition: 0.3s; }
+.btnc:hover { background-color: #8e13c5; color: white; }
 /*Grid*/
 .grid {
     width: calc(100% + 5rem);
