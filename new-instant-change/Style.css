@@ -45,7 +45,7 @@
     /*Hero*/
  .hero { align-items:center; position:relative; color: white; }
   .hero h1 { position: relative; z-index:1; text-align:left; }
-  .hero p { position:relative; z-index:1; font-size: 1.8rem; line-height:1.3; color:black; text-align:left; display:inline-block;}
+  .hero p { position:relative; z-index:1; font-size: 1.8rem; line-height:1.3; color:black; text-align:left; display:inline-block; max-width:400px;}
 
    .back {align-items:center; position:relative; color: white; background-image:url("../img/banner-bod.jpg"); background-position: center; background-repeat: no-repeat; background-size: cover; }
   .back::before { content:""; position:absolute; top:0; left:0; width:100%; height:100%; background-color:rgba(0, 0, 0, 0.75); }
@@ -55,7 +55,7 @@
 
 @media (max-width:767px) {
  .hero { padding: 5rem 2.5rem; }
- .hero p { font-size: 1.6rem; }
+ .hero p { font-size: 1.6rem; max-width:none; text-align:center;}
     }
     /*Hero*/
 
