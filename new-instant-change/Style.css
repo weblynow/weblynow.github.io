@@ -52,6 +52,7 @@
   .back h1 { position: relative; z-index:1; text-align:left; }
   .back p { position:relative; z-index:1; font-size: 1.8rem; line-height:1.3; color:white; text-align:left; display:inline-block;}
 
+  .politica{align-items:center; position:relative; z-index:1; font-size: 1.8rem; line-height:1.3; color:black; text-align:left; display:inline-block; }
 
 @media (max-width:767px) {
  .hero { padding: 5rem 2.5rem; }
@@ -62,7 +63,7 @@
     /*Pasiunile mele si Proiectele mele*/
     .my-passion{ padding-top:10rem; }
      .my-passions h1, .my-portofolio h1 { margin-bottom:7.5rem; }
-     .my-passions-inner-container, .my-portofolio-inner-container { color:white;}
+     .my-passions-inner-container, .my-portofolio-inner-container { color:black; font-size:1.8rem;}
       .my-passions-inner-container h3, .my-portofolio-inner-container h3 { font-size:2.4rem; text-align:center; margin-bottom:2.5rem; }
 
 /*Pasiunile mele si Proiectele mele*/
@@ -75,6 +76,54 @@ footer { font-size:1.6rem; color:#fff; background-color:#32A852; padding:5rem; t
  footer a { display:block; margin-bottom:1rem; color: white; text-decoration:none; }
  a:hover {color:aquamarine; text-decoration:none; }
   footer p { display: flex; margin-top:1rem; justify-content: center; }
+
+#cookieConsent {
+    background-color: rgba(20,20,20,0.8);
+    min-height: 26px;
+    font-size: 14px;
+    color: #ccc;
+    line-height: 26px;
+    padding:22px;
+    font-family: "Trebuchet MS",Helvetica,sans-serif;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    display: none;
+    z-index: 9999;
+}
+
+    #cookieConsent a {
+        color: #4B8EE7;
+        text-decoration: none;
+    }
+
+#closeCookieConsent {
+    float: right;
+    display: inline-block;
+    cursor: pointer;
+    height: 20px;
+    width: 20px;
+    font-weight: bold;
+}
+
+    #closeCookieConsent:hover {
+        color: #FFF;
+    }
+
+#cookieConsent a.cookieConsentOK {
+    background-color: lightgreen;
+    color: #000;
+    display: inline-block;
+    border-radius: 5px;
+    padding: 0 20px;
+    cursor: pointer;
+}
+
+    #cookieConsent a.cookieConsentOK:hover {
+        background-color: springgreen;
+    }
+/*Cookie Consent End*/
 
 .social {
     display: flex;
